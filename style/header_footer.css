@@ -271,6 +271,9 @@ text-align: left;
     display: flex;
     align-items: center;
 }
+.bottom_left_mymarket a:first-child{
+    margin-right: 20px;
+}
 .footer_bottom__left img{
     height: 47px;
 }
