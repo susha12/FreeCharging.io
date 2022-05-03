@@ -364,8 +364,8 @@ footer{
     display:flex;
     position: absolute;
     bottom: 0px;
-    left: -150px;
-    width: 160%;
+    left: -80px;
+    width: 150%;
     height: 950px;
     background: #D0D0D0; 
     z-index: -100;
