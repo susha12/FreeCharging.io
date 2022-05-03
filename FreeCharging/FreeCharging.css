@@ -6,6 +6,7 @@ main{
     align-items: center;
     flex-direction: column;
     margin: 0 auto;
+  
 }
 /* box offer words */
 .box_one__offerWords{
@@ -31,12 +32,13 @@ main{
 .offerWords_text__name .p{
     display: inline-block;
 }
+
 .offerWords_text__text{
     height: 85px;
     width: 330px;
     position: relative;
     left: 80px;
-    font-family: 'Gilroy-Medium'; 
+	font-family: 'Gilroy-Medium'; 
     font-size: 18px;
     font-weight: 400;
     margin-top:23px;
@@ -71,6 +73,7 @@ main{
     height: 472px;
     top: 50px;
     position: relative;
+
     display: flex;
     justify-content: center;
     align-items: center;
@@ -280,6 +283,7 @@ footer{
 margin-bottom: 0px;
     position: relative;
     flex-direction: start;
+
 }
 .offer_two__img{
     position: absolute;
@@ -311,7 +315,8 @@ margin-bottom: 0px;
     bottom: 60px;
 }
 .offer_two__socialIkons img{
-    display: flex; 
+    display: flex;
+    
 }
 .Offer_two__vk{
     height: 75px;
