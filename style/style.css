@@ -1,7 +1,5 @@
-/* main content */
 main{
-    width: 95%;
-    max-width: 1280px;
+    width: 100%;
     min-height: 100vh;
     display: flex;
     justify-content: start;
@@ -12,8 +10,7 @@ main{
 /* box offer words */
 .box_one__offerWords{
     height: 472px;
-    max-width: 1160px;
-    width: 95%;
+    width: 90%;
     background: #E8E8E8;
     border-radius: 10px;
     position: relative;
@@ -30,7 +27,9 @@ main{
     width: 300px;
     font-family:'HerculesModern'; 
     line-height: 56px;
-
+}
+.offerWords_text__name p{
+    display: inline-block;
 }
 .offerWords_text__text{
     height: 85px;
@@ -56,31 +55,40 @@ main{
     left: 80px;
     cursor: pointer;
 }
-
+.bottom_left_mymarket a{
+    z-index: 100;
+}
+.youBuy_five__row{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+}
 /* box block about irina */
 .box_two__aboutIrina{
-    max-width: 1160px;
-    width: 95%;
+    /* max-width: 1160px; */
+    width: 90%;
     position: relative;
     height: 360px;
     display: flex;
     justify-content: space-around;
-    align-items: center;
-    margin: 90px auto 10px;
+    margin: 70px auto;
 }
 .two__aboutIrina__leftBox{
-    width: 43%;
+    width: 45%;
     height: 100%;
 }
 .two__aboutIrina__rightBox{
-    width: 57%;
+    width: 45%;
     height: 100%;
+
 }
 .aboutIrina__leftBox__name{
     font-family: 'HerculesModern'; 
     font-size: 40px;
     font-weight: 400;
-    line-height: 56px;
+    line-height: 56px; 
 }
 .aboutIrina__leftBox__text{
     height: 200px;
@@ -90,18 +98,15 @@ main{
     font-weight: 400;
     line-height: 25px;
 }
-.aboutIrina_rightBox__img{
+.aboutIrina_rightBox__img img{
     height: 324px;
-    width: 659px;
+    width: 106%;
     border-radius: 10px;
-    position: relative;
-    left: 0px;
-    top: 0px;
 }
 .aboutIrina_rightBox__text{
     position: relative;
     height: 160px;
-    width: 525px;
+    width: 80%;
     top: -68px;
     left: 99px;
     border-radius: 10px;
@@ -117,19 +122,17 @@ main{
     top:33px;
     right: -13px;
 }
-
 /* box block products */
 .box_three__products{
-    max-width: 1160px;
-    width: 95%;
+    width: 90%;
     position: relative;
     height: auto;
     display: flex;
     justify-content: start;
     align-items: flex-start;
     margin-top: 173px;
-    /* border: 2px solid red; */
     flex-direction: column;
+    margin-left: 20px;
 }
 .three_products__name{
     font-family: 'HerculesModern'; 
@@ -140,7 +143,6 @@ main{
     position: absolute;
 }
 .three_products__one{
-    max-width: 1160px;
     width: 100%;
     position: relative;
     display: flex;
@@ -150,7 +152,7 @@ main{
 }
 .products_one__entrance{
     height: 2px;
-    width: 91%;
+    width: 100%;
     position: relative;
     background: radial-gradient(84.62% 84.62% at 50% 15.38%, #464646 0%, rgba(255, 255, 255, 0) 100%);
 }
@@ -160,18 +162,21 @@ main{
     display: flex;
     position: relative;
     justify-content: space-between;
-    align-items: center;
+    align-items: center;  
 }
 .products_one__img{
     width: 10.5%;
 }
 .products_one__name{
-    width: 20%;
+    font-size: 20px;
+    line-height: 28px;
+    height: 56px;
+    width: 180px;
+    left: 18%;
+    top: 40%;
+    position: absolute;
 	font-family: 'HerculesModern'; 
-    font-size: 30px;
-    font-weight: 400;
-    line-height: 42px;
-    margin: 0 auto;
+    font-weight: 400;   
 }
 .products_one__text{
     width: 57%;
@@ -184,18 +189,16 @@ main{
 .products_one__text .acaunts_register__text{
     margin-top: 10px;
 }
-
 /* block products four */
 .block_youBuy__five{
-    max-width: 1160px;
-    width: 95%;
+    width: 80%;
     position: relative;
     height: 345px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-top: 111px;
+    margin-top: 80px;
 }
 .youBuy_five__name{
     height: 56px;
@@ -206,19 +209,14 @@ main{
     line-height: 56px;
     letter-spacing: 0em;
 }
-.youBuy_five__row{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    width: 100%;
-}
 .five_row__boxOne{
     height: 218px;
     width: 360px;
     border-radius: 10px;
     background: #E8E8E8;
-    margin-top: 71px;
+    margin-top: 37px;
     position: relative;
+    margin: 50px 10px;
 }
 .row_boxOne__img{
     position: absolute;
@@ -236,7 +234,7 @@ main{
     text-align: left;
     top:25px;
     position: absolute;
-    right: 70px;
+    left: 140px;
 }
 .row_boxOne__text{
     height: 100px;
@@ -339,14 +337,14 @@ main{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    max-width: 1160px;
-    width: 95%;
+    width: 86%;
     position: relative;
+    padding-left:2%;
 }
 .call_action__left{
     width: 50%;
     display: flex;
-    align-items: flex-start;
+    align-items: center;
     height: 60%;
     justify-content: start;
     flex-direction: column;
@@ -368,18 +366,329 @@ main{
     font-size: 18px;
     font-weight: 400;
     line-height: 25px;
-
     margin-top: 22px;
 }
 .action_left__playMarket{
     display: flex;
     align-items: center;
-    width: 97%;
+    width: 67%;
     justify-content: space-between;
     margin-top: 46px;
 }
-.action_left__iphon{
+.call_action__right{
     position: absolute;
-    right: -180px;
+    right: -30px;
     top: -10px;
+    width: 500px;
+    height: 750px;
+    overflow: hidden;
+}
+/* 1442px */
+@media screen and (max-width: 1442px) {
+.row_boxOne__text{
+    width: 268px;
+} 
+}
+/* main content */
+/* 1189px */
+@media screen and (max-width: 1200px) {
+.box_one__offerWords{
+    height: 453px;
+}
+.one_offerWords__text{
+    height: 100%;
+    width: 95%;
+    right: 7px;
+    top: 0px;
+    display: flex;
+    flex-direction: column;
+    padding-top: 26px;
+}
+.offerWords_text__name{
+    height: 106px;
+    width: 190px;
+    font-size: 30px;
+    margin-left: 21px;
+    margin-bottom: 0px;
+}
+.offerWords_text__name p{
+    display: block;
+    position: relative;
+    left: 59px;
+    top: -15px;
+}
+.offerWords_text__text{
+    height: 170px;
+    width: 190px;
+    margin-top:0px;
+    margin-bottom: 10px;
+}
+.offerWords_text__try{
+    width: 160px;
+}
+.box_two__aboutIrina{
+    flex-direction: column;
+}
+.two__aboutIrina__leftBox{
+    width: 100%;
+    height: 20%;
+
+}
+.two__aboutIrina__rightBox{
+    width: 100%;
+    height: 80%;
+    font-size: 10px;
+}
+.aboutIrina__leftBox__name{
+    font-size: 32px;
+    font-weight: 500;
+    height: 40px;
+    margin-bottom: 15px;
+}
+.aboutIrina__leftBox__text{
+    height: auto;
+    width: 90%;
+    position: relative;
+    font-size: 16px;
+    margin: 10px 0;
+    line-height: 22px;
+}
+.box_two__aboutIrina{
+    margin: 60px auto;
+}
+.box_two__aboutIrina,
+.two__aboutIrina__rightBox{
+    display: flex;
+    flex-direction: column;
+    height: auto;
+}
+.aboutIrina_rightBox__img{
+    height: 208px;
+    width: 100%;
+    background: #E8E8E8;
+    z-index: 1000;
+    margin: 15px auto;
+}
+.aboutIrina_rightBox__img img{
+    height: 208px;
+    width: 100%;
+    opacity: 0;
+}
+.aboutIrina_rightBox__text{
+    background: #7D7D7D;
+    font-size: 16px;
+    line-height: 22px;
+    height: 207px;
+    left: 45px;
+    z-index: 1000;
+    top: -37px;
+    color: white;
+    font-size: 16px;
+    padding: 10px 8px;
+}
+.aboutIrina_rightBox__paws{
+    top: 0;
+    width: 25px;
+    right: -5px;
+}
+/* box block products */
+.box_three__products{
+    top: -180px;
+    height: 400px;
+    margin-bottom: 250px;
+}
+.three_products__name{
+    font-size: 30px;
+    top: -45px;
+}
+.three_products__one{
+    width: 100%;
+    justify-content: center;
+}
+.products_one__entrance{
+    width: 90%;
+}
+.one_entrance__row{
+    flex-direction: column;
+    height: 361px;
+    position: relative;
+}
+.products_one__name{
+    top: 25px;
+    left:85px;
+}
+.products_one__img img{
+    height: 60px;
+    position: absolute;
+    left: 10px;
+    top: 21px;
+}
+.products_one__text{
+    height: 190px;
+    width: 270px;
+    left: 10px;
+    top: 102px;
+    font-size: 16px;
+    position: absolute;
+    line-height: 18px;
+    margin-bottom: 18px;
+}
+/* block products four */
+.block_youBuy__five{
+    height: 994px;
+    top: 420px;
+}
+.youBuy_five__name{
+    height: 126px;
+    width: 290px;
+    font-size: 30px;
+    line-height: 42px;
+    text-align: center;
+}
+.youBuy_five__row{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+.row_boxOne__img img{
+    position: absolute;
+    left: -10px;
+    top: 25px;
+    height: 50px;
+}
+.row_boxOne__name{
+    font-size: 16px;
+    line-height: 22px;
+    top:10px;
+    left: 100px;
+}
+.row_boxOne__text{
+    font-weight: 500;
+    line-height: 22px;
+    letter-spacing: 0em;
+    position: absolute;
+    bottom: 14px;
+    margin: -10px auto;
+    font-size: 14px;
+}
+/* block slider six */
+.block_slider{
+    height: 450px;
+    width: 100%;
+    top: 220px;
+}
+.block_slider__name{
+    text-align: center;
+    font-size: 30px;
+}
+.block_slider__childen{
+    height: 450px;
+    border-radius: 10px;
+
+
+}.slider_childen__backImg,
+.slider_childen__nextImg{
+    bottom: -60px;
+    height: 40px;
+    position: absolute;
+    bottom: -60px;
+    right: 80px;
+}
+.slider_childen__backImg{
+    left: 80px;
+}
+.slider__childen__container{
+    height: 390px;
+    width: 100%;
+}
+.childen_container__img{
+    height: 111px;
+    width: 106px;
+    left: 13px;
+    top: 25px;
+    border-radius: 10px;
+    position: absolute;
+}
+.childen_container__textArea{
+    width: 100%;
+    height: 100%;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+    position: absolute;
+    border-radius: 10px;
+    left: 0;
+    z-index: -10;
+}
+.container_textArea__name{
+    font-size: 16px;
+    width: 120px;
+    height: 70px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+.container_textArea__text{
+    height: 250px;
+    width: 90%;
+    position: relative;
+    left: -35px;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20px;
+    margin-top: 140px;
+    color: black;
+    left: -25px;
+}
+/* block call to action seven */
+.call_action{
+    height: 850px;
+    top: 250px;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: start;
+    width: 100%;
+    position: relative;
+}
+.call_action__left{
+    width: 100%;
+    height: auto;
+}
+.action_left__name{
+    position: relative;
+    height: 84px;
+    width: 100%;
+    font-size: 30px;
+    line-height: 42px;
+}
+.action_left__text{
+    height: 250px;
+    width: 100%;
+}
+.action_left__playMarket{
+    width: 100%;
+}
+.action_left__playMarket img{
+    height: 41px;
+    width: 141px;
+    left: 0px;
+    top: 347px;
+    border-radius: 0px;
+}
+.call_action__right{
+    top: 490px;
+    width: 100%;
+    left: 0;
+}
+.call_action__right img{
+    height: auto;
+    width: 100%;
+    border-radius: 0px;
+}
+.five_row__boxOne{
+    height: 150px;
+    width: 250px;
+    margin: 25px 10px;
+}
 }
