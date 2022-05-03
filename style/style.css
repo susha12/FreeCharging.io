@@ -28,9 +28,10 @@ main{
     font-family:'HerculesModern'; 
     line-height: 56px;
 }
-.offerWords_text__name p{
+.offerWords_text__name .p{
     display: inline-block;
 }
+
 .offerWords_text__text{
     height: 85px;
     width: 330px;
@@ -690,5 +691,10 @@ main{
     height: 150px;
     width: 250px;
     margin: 25px 10px;
+}
+.offerWords_text__name .p{
+    position: relative;
+    left: 60px;
+    margin-bottom: 10px;
 }
 }
