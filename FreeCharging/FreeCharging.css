@@ -253,6 +253,16 @@ footer{
     justify-content: center;
     align-items: center;
     margin-top: 20px;
+    position: relative;
+}
+.slider_box__home::before{
+    content: "";
+    width: 100%;
+    height: 153%;
+    position: absolute;
+    left: 0px;
+    top:0px;
+    background: #D8D8D8;
 }
 .offerWords_text__name{
     height: 106px;
