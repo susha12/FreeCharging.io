@@ -326,10 +326,6 @@ footer{
     body{
         width: 320px;
         min-height: 100vh;
-        /* display: flex;
-        justify-content: start;
-        align-items: flex-start;
-        flex-direction: column; */
         margin: 0 auto;
     }
     .box_header__top,
