@@ -472,3 +472,8 @@ footer{
     align-items: flex-start;
 }
 }
+/* button style */
+button{
+    outline: none;
+    border: none;
+}
