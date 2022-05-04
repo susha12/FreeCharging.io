@@ -1,0 +1,624 @@
+main{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-direction: column;
+    margin: 0 auto;
+}
+/* Download our application */
+.download_our__application{
+    height: 490px;
+    width: 90%;
+    position: relative;
+    left: 0px;
+    top: 123px;
+    border-radius: 10px;
+    background: #E8E8E8;
+    margin-bottom: 220px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding-left: 1.5%;
+}
+.our_application__title{
+    height: 112px;
+    width: 361px;
+    font-family: 'HerculesModern'; 
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 56px;
+    letter-spacing: 0em;
+    text-align: left;
+    }
+.our_application__text{
+    height: 50px;
+    width: 514px;
+    font-family: 'Gilroy-Regular'; 
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 25px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin: 31px 0px;
+}
+.our_application__markets{
+    width: 554px;
+    height: 77.5px;
+    display: flex;
+    justify-content: space-around;
+}
+.our_application__markets img{
+    height: 77px;
+width: 264px;
+}
+.our_application__wallpapersBig{
+    position: absolute;
+    right: 0px;
+    top: -120px;
+}
+.our_application__wallpapersSmall{
+    display: none;
+}
+/* who is it useful for */
+.box_who__useful{
+    height: auto;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+}
+.who_useful__name{
+    height: 56px;
+    font-family: 'HerculesModern'; 
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 56px;
+    letter-spacing: 0em;
+    text-align: center;
+    margin-bottom: 49px;
+}
+.who_useful_container{
+    width: 95%;
+    height: 95%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.useful_container__box{
+    height: 371px;
+    width: 360px;
+    left: 0px;
+    top: 105px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    background: #E8E8E8;
+    margin: 40px;
+}
+.useful_container_img{
+    height: 100px;
+    width: 100px;
+    position: relative;
+    left: 26px;
+    top: 43px;
+    border-radius: 10px;
+    background: #626262;
+}
+.useful_container_title{
+    height: 25px;
+    width: 117px;
+    left: 26px;
+    top: 70px;
+    font-family: 'Gilroy-Medium'; 
+    position: relative;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 25px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+.useful_container_text{
+    height: 100px;
+    width: 282px;
+    left: 26px;
+    top: 90px;
+    font-family: 'Gilroy-Regular';
+    position: relative; 
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 25px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+/* who is it useful for */
+
+.bottom_left_mymarket a{
+    z-index: 100;
+}
+.youBuy_five__row{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+}
+/* block products four */
+.block_youBuy__five{
+    width: 80%;
+    position: relative;
+    height: 345px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 80px;
+}
+.youBuy_five__name{
+    height: 56px;
+    width: 876px;
+    font-family: 'HerculesModern'; 
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 56px;
+    letter-spacing: 0em;
+}
+.five_row__boxOne{
+    height: 218px;
+    width: 360px;
+    border-radius: 10px;
+    background: #CECECE;
+    margin-top: 37px;
+    position: relative;
+    margin: 50px 10px;
+}
+.row_boxOne__img{
+    position: absolute;
+    left: 24px;
+    top: -39px;
+}
+.row_boxOne__name{
+    height: 25px;
+    width: 142px;
+	font-family: 'Gilroy-Regular'; 
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 25px;
+    letter-spacing: 0em;
+    text-align: left;
+    top:25px;
+    position: absolute;
+    left: 140px;
+}
+.row_boxOne__text{
+    height: 100px;
+    width: 282px;
+    font-family: 'Gilroy-Regular'; 
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 25px;
+    letter-spacing: 0em;
+    text-align: left;
+    position: absolute;
+    bottom: 47px;
+    left: 24px;
+}
+/* block slider six */
+.block_slider{
+    height: 361px;
+    margin-top: 88px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+    max-width: 1160px;
+    width: 95%; 
+    position: relative; 
+}
+.block_slider__name{
+    height: 25%;
+    width: 190px;
+    font-family: 'HerculesModern'; 
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 56px;
+}
+.block_slider__childen{
+    display: flex;
+    position: relative;
+    width: 100%;
+    height: 75%;
+    justify-content: space-between;
+    align-items: center;
+}
+.slider_childen__backImg,
+.slider_childen__nextImg{
+    height: 60px;
+    width: 60px;
+    border-radius: 300px;
+    cursor: pointer;
+}
+.slider__childen__container{
+    height: 329px;
+    width: 960px;
+    border-radius: 10px;
+    display: flex;
+}
+.childen_container__img{
+    height: 329px;
+    width: 360px;
+    left: 100px;
+    top: 88px;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+    background: #5f5f5f;
+}
+.childen_container__textArea{
+    background: #E8E8E8;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+.container_textArea__name{
+    height: 25px;
+    font-family: 'Gilroy-Medium'; 
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 25px;
+    letter-spacing: 0em;
+    margin: 33px 40px;
+}
+.container_textArea__text{
+    height: 150px;
+    width: 500px;
+    font-family: 'Gilroy-Regular'; 
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 25px;
+    letter-spacing: 0em;
+    margin: 40px;
+}
+/* active slider */
+.slider__childen__container{
+    display: none;
+}
+.slider__childen__container.active{
+    display: flex;
+}
+/* blox_seven__freeDay */
+.blox_seven__freeDay{
+    height: 967px;
+    margin-top: 100px;
+    width: 90%;
+    background: #E8E8E8;
+   display: flex;
+   justify-content: start;
+   align-items: center;
+   flex-direction: column;
+   padding-top: 90px;
+    position: relative;
+    z-index: 1000;
+}
+.blox_seven__wallpaper{
+    position: absolute;
+    bottom: 0px;
+    left: -80px;
+    width: 150%;
+    height: 100%;
+    background: #E8E8E8;
+    z-index: -1000;
+}
+.seven_freeDay__name{
+    min-height: 112px;
+    width: 80%;
+    top: 90px;
+    font-family: 'HerculesModern'; 
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 56px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+.seven_freeDay__markets{
+    height: 78px;
+    width: 554px;
+    margin-top: 32px;
+    margin-bottom: 54px;
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+}
+.freeDay_markets__errow{
+    position: absolute;
+    left: 20%;
+    top: 180px;
+    height: 101px;
+    transform: rotate(-5deg);
+}
+.seven_freeDay__markets img{
+    height: 78px;
+    width: 264px;  
+}
+.freeDay_wallpaperBig__big{
+    height: auto;
+    width: 100%;
+    border-radius: 10px;
+}
+.seven_freeDay__wallpaperSmall{
+    display: none;
+}
+footer{
+    margin-top: 0px;
+}
+/* 1442px */
+@media screen and (max-width: 1442px) {
+.row_boxOne__text{
+    width: 268px;
+} 
+.freeDay_markets__errow{
+    left: 15%;
+    height: 101px;
+}
+}
+
+/* 1189px */
+@media screen and (max-width: 1200px) {
+/* main content */
+main{
+    margin-top: -120px;
+}
+/* Download our application */
+.download_our__application{
+    justify-content: flex-start;
+    padding-left: 3.5%;
+}
+.our_application__title{
+    height: 84px;
+    width: 286px;
+    left: 10px;
+    top: 0px;
+    margin-top: 28px;
+    font-size: 30px;
+    line-height: 42px;
+    }
+.our_application__text{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    height: 88px;
+    width: 258px;
+}
+.our_application__markets{
+    width: 103%;
+    height: 77.5px;
+    display: flex;
+    justify-content: space-around;
+    left: -10px;
+    position: relative;
+}
+.our_application__markets img{
+    height: 38px;
+    width: 131px;
+}
+.our_application__wallpapersSmall{
+    display: flex;
+    position: absolute;
+    bottom: -82px;
+    left: 0px;
+    width: 288px;
+}
+.our_application__wallpapersBig{
+    display: none;
+}
+    /* who is it useful for */
+
+.box_who__useful{
+    margin-bottom: -560px;
+}
+.who_useful__name{
+    width: 290px;
+    left: 6px;
+    top: 0px;
+    font-size: 30px;
+    line-height: 42px;
+    letter-spacing: 0em;
+    text-align: center;
+    margin-bottom: 15px;
+}
+.who_useful_container{
+    width: 95%;
+    height: 95%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.useful_container__box{
+    height: 245px;
+    width: 500px;
+    border-radius: 10px;
+    margin: 10px;
+}
+.useful_container_img{
+    height: 55px;
+    width: 61px;
+    top: 30px;
+}
+.useful_container_title{
+    height: 22px;
+width: 144px;
+top: 45px;
+}
+.useful_container_text{
+    height: 128px;
+    width: 231px;
+    top: 64px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22px;
+}
+/* block products four */
+.block_youBuy__five{
+    height: 994px;
+    top: 420px;
+}
+.youBuy_five__name{
+    height: 126px;
+    width: 290px;
+    font-size: 30px;
+    line-height: 42px;
+    text-align: center;
+}
+.youBuy_five__row{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.five_row__boxOne{
+    height: 150px;
+    width: 300px;
+    border-radius: 10px;
+    background: #E8E8E8;
+    margin-top: 0px;
+    position: relative;
+    margin: 37px 10px;
+}
+.row_boxOne__img img{
+    position: absolute;
+    left: -10px;
+    top: 25px;
+    height: 50px;
+}
+.row_boxOne__name{
+    font-size: 16px;
+    line-height: 22px;
+    top:10px;
+    left: 100px;
+}
+.row_boxOne__text{
+    font-weight: 500;
+    line-height: 22px;
+    letter-spacing: 0em;
+    position: absolute;
+    bottom: 14px;
+    margin: -10px auto;
+    font-size: 14px;
+}
+/* block slider six */
+.block_slider{
+    height: 450px;
+    width: 100%;
+    top: 220px;
+}
+.block_slider__name{
+    text-align: center;
+    font-size: 30px;
+}
+.block_slider__childen{
+    height: 450px;
+    border-radius: 10px;
+}.slider_childen__backImg,
+.slider_childen__nextImg{
+    bottom: -60px;
+    height: 40px;
+    position: absolute;
+    bottom: -60px;
+    right: 80px;
+}
+.slider_childen__backImg{
+    left: 80px;
+}
+.slider__childen__container{
+    height: 390px;
+    width: 100%;
+}
+.childen_container__img{
+    height: 111px;
+    width: 106px;
+    left: 13px;
+    top: 25px;
+    border-radius: 10px;
+    position: absolute;
+}
+.childen_container__textArea{
+    width: 100%;
+    height: 100%;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+    position: absolute;
+    border-radius: 10px;
+    left: 0;
+    z-index: -10;
+}
+.container_textArea__name{
+    font-size: 16px;
+    width: 120px;
+    height: 70px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+.container_textArea__text{
+    height: 250px;
+    width: 90%;
+    position: relative;
+    left: -35px;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20px;
+    margin-top: 140px;
+    color: black;
+    left: -25px;
+}
+/* blox_seven__freeDay */
+.blox_seven__freeDay{
+    margin-top: 350px;
+    width: 100%;
+    padding-top: 60px;
+    position: relative;
+    height: 612px;
+}
+.seven_freeDay__name{
+    top: 90px;
+    height: 112px;
+    width: 316px;
+    top: 60px;
+    font-size: 20px;
+    line-height: 28px;
+}
+.freeDay_markets__errow{
+    position: absolute;
+    left: 22px;
+    top: 133px;
+    border-radius: 0px;
+    height: 35px;
+}
+.seven_freeDay__markets{
+    height: 78px;
+    width: 100%;
+    margin-top: 31px;
+    margin-bottom: 32px;
+}
+.seven_freeDay__markets img{
+    height: 41px;
+    width: 141px;
+ 
+}
+.seven_freeDay__wallpaperBig{
+    display: none;
+}
+.seven_freeDay__wallpaperSmall{
+    display: flex;
+    width: 100%;
+    left: 5px;
+    position: relative;
+}
+footer{
+    top:0px;
+}
+}
