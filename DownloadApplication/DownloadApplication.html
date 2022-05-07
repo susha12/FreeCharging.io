@@ -1,618 +1,281 @@
-main{
-    width: 100%;
-    min-height: 100vh;
-    display: flex;
-    justify-content: start;
-    align-items: center;
-    flex-direction: column;
-    margin: 0 auto;
-    max-width: 1960px;
-}
-/* Download our application */
-.download_our__application{
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Скачать Приложение</title>
+    <link rel="stylesheet" href="../style/header_footer.css">
+    <link rel="stylesheet" href="DownloadApplication.css">
+    <link rel="stylesheet" href="../style/fonts_import.css">
+</head>
+<body>
+    <!-- header content -->
+    <header>
+        <div class="box_header__top">
+            <div class="header_top__text"><a href="@">О нас</a></div>
+            <div class="header_top__acaunts">
+                <div class="top_acaunts__entrance">  
+                    <div class="acaunts_entrance__text"><a href="#"><img src="../img/icons/entrance_icon.png" alt="entrance_icon" class="acaunts_entrance__img">Вход</a></div>
+                </div>
+                <div class="top_acaunts__register">
+                    <button class="acaunts_register__text">Зарегистрироваться</button>
+                </div>
+            </div>
+        </div>
+        <div class="box_header__center">
+            <a href="../index.html"><img src="../img/icons/logo.png" alt="" class="header_center__logo"></a>
+            <a href="#"><img src="../img/icons/navBar.png" alt="" class="header_center__navBar"></a>
+        </div>
+        <div class="box_header__botom">
+            <ul class="header_botom__list">
+                <li class="botom_list__FreeCharging"><a href="../FreeCharging/FreeCharging.html">Бесплатная зарядка</a></li>
+                <li class="botom_list__alarmApp"><a href="#">Приложение Ци-будильник</a></li>
+                <li class="botom_list__none"></li>
+                <li class="botom_list__JournalDragons"><a href="../MagazineDragon/MagazineDragon.html">Журнал Вестник драконов</a></li>
+                <li class="botom_list__LearningPlatform"><a href="#">Обучающая платформа</a></li>
+            </ul>
+        </div>
+    </header>
+    <!-- main content -->
+    <main>
+        <!-- Download our application -->
+        <div class="download_our__application">
+            <div class="box_our__application">
+                <h1 class="our_application__title">
+                    Скачайте наше приложение
+                </h1>
+                <div class="our_application__text">
+                    В своём стремлении улучшить пользовательский опыт мы упускаем, что реплицированные с зарубежных источников! 
+                </div>
+                <div class="our_application__markets">
+                    <a href="https://play.google.com/" target="_blank"><img src="../img/icons/googleplay_big.png" alt="googleplay_big" class="application_markets__android"></a>
+                    <a href="https://www.apple.com/app-store/" target="_blank"><img src="../img/icons/appstore_big.png" alt="appstore_big" class="application_markets__ios"></a>
+                </div>
+                <img src="../img/DownloadApplication/Download_our_application.png" alt="Download_our_application_img" class="our_application__wallpapersBig">
+                <img src="../img/DownloadApplication/Download_our_application_mini.png" alt="Download_our_application_mini_png" class="our_application__wallpapersSmall">
+            </div>
+        </div>
 
-    height: 490px;
-    width: 90%;
-    position: relative;
-    left: 0px;
-    top: 123px;
-    border-radius: 10px;
-    background: #E8E8E8;
-    margin-bottom: 220px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    padding-left: 1.5%;
-}
-.our_application__title{
-    height: 112px;
-    width: 361px;
-    font-family: 'HerculesModern'; 
-    font-size: 40px;
-    font-weight: 400;
-    line-height: 56px;
-    letter-spacing: 0em;
-    text-align: left;
-    }
-.our_application__text{
-    height: 50px;
-    width: 514px;
-    font-family: 'Gilroy-Regular'; 
-    font-size: 18px;
-    font-weight: 400;
-    line-height: 25px;
-    letter-spacing: 0em;
-    text-align: left;
-    margin: 31px 0px;
-}
-.our_application__markets{
-    width: 554px;
-    height: 77.5px;
-    display: flex;
-    justify-content: space-around;
-}
-.our_application__markets img{
-    height: 77px;
-width: 264px;
-}
-.our_application__wallpapersBig{
-    position: absolute;
-    right: 0px;
-    top: -120px;
-}
-.our_application__wallpapersSmall{
-    display: none;
-}
-/* who is it useful for */
-.box_who__useful{
-    height: auto;
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: start;
-    align-items: center;
-}
-.who_useful__name{
-    height: 56px;
-    font-family: 'HerculesModern'; 
-    font-size: 40px;
-    font-weight: 400;
-    line-height: 56px;
-    letter-spacing: 0em;
-    text-align: center;
-    margin-bottom: 49px;
-}
-.who_useful_container{
-    width: 95%;
-    height: 95%;
-    margin: auto;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-}
-.useful_container__box{
-    height: 371px;
-    width: 360px;
-    left: 0px;
-    top: 105px;
-    border-radius: 10px;
-    display: flex;
-    flex-direction: column;
-    background: #E8E8E8;
-    margin: 40px;
-}
-.useful_container_img{
-    height: 100px;
-    width: 100px;
-    position: relative;
-    left: 26px;
-    top: 43px;
-    border-radius: 10px;
-    background: #626262;
-}
-.useful_container_title{
-    height: 25px;
-    width: 117px;
-    left: 26px;
-    top: 70px;
-    font-family: 'Gilroy-Medium'; 
-    position: relative;
-    font-size: 18px;
-    font-weight: 500;
-    line-height: 25px;
-    letter-spacing: 0em;
-    text-align: left;
-}
-.useful_container_text{
-    height: 100px;
-    width: 282px;
-    left: 26px;
-    top: 90px;
-    font-family: 'Gilroy-Regular';
-    position: relative; 
-    font-size: 18px;
-    font-weight: 400;
-    line-height: 25px;
-    letter-spacing: 0em;
-    text-align: left;
-}
-/* who is it useful for */
+        <!-- who is it useful for -->
+        <div class="box_who__useful">
+            <div class="who_useful__name">кому это полезно?</div>
+                <!-- container-->
+                <div class="who_useful_container">
+                        <!-- container number one -->
+                        <div class="useful_container__box">
+                            <img src="../img/DownloadApplication/home_eight__block.png" alt="blox_img" class="useful_container_img">
+                            <h3 class="useful_container_title">Нужно тем-то</h3>
+                            <div class="useful_container_text">
+                                В своём стремлении улучшить пользовательский опыт мы упускаем, что реплицированные с зарубежных источников 
+                            </div>
+                        </div>
+                        <!-- container number two -->
+                            <div class="useful_container__box">
+                                <img src="../img/DownloadApplication/home_eight__block.png" alt="blox_img" class="useful_container_img">
+                                <h3 class="useful_container_title">Нужно тем-то</h3>
+                                <div class="useful_container_text">
+                                    В своём стремлении улучшить пользовательский опыт мы упускаем, что реплицированные с зарубежных источников 
+                                </div>
+                            </div>
 
-.bottom_left_mymarket a{
-    z-index: 100;
-}
-.youBuy_five__row{
-    display: flex;
-    justify-content: space-between;
-    flex-direction: row;
-    align-items: center;
-    width: 100%;
-}
-/* block products four */
-.block_youBuy__five{
-    width: 80%;
-    position: relative;
-    height: 345px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin-top: 80px;
-}
-.youBuy_five__name{
-    height: 56px;
-    width: 876px;
-    font-family: 'HerculesModern'; 
-    font-size: 40px;
-    font-weight: 400;
-    line-height: 56px;
-    letter-spacing: 0em;
-}
-.five_row__boxOne{
-    height: 218px;
-    width: 360px;
-    border-radius: 10px;
-    background: #CECECE;
-    margin-top: 37px;
-    position: relative;
-    margin: 50px 10px;
-}
-.row_boxOne__img{
-    position: absolute;
-    left: 24px;
-    top: -39px;
-}
-.row_boxOne__name{
-    height: 25px;
-    width: 142px;
-	font-family: 'Gilroy-Regular'; 
-    font-weight: 600;
-    font-size: 18px;
-    line-height: 25px;
-    letter-spacing: 0em;
-    text-align: left;
-    top:25px;
-    position: absolute;
-    left: 140px;
-}
-.row_boxOne__text{
-    height: 100px;
-    width: 282px;
-    font-family: 'Gilroy-Regular'; 
-    font-size: 18px;
-    font-weight: 400;
-    line-height: 25px;
-    letter-spacing: 0em;
-    text-align: left;
-    position: absolute;
-    bottom: 47px;
-    left: 24px;
-}
-/* block slider six */
-.block_slider{
-    height: 361px;
-    margin-top: 88px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: start;
-    max-width: 1160px;
-    width: 95%; 
-    position: relative; 
-}
-.block_slider__name{
-    height: 25%;
-    width: 190px;
-    font-family: 'HerculesModern'; 
-    font-size: 40px;
-    font-weight: 400;
-    line-height: 56px;
-}
-.block_slider__childen{
-    display: flex;
-    position: relative;
-    width: 100%;
-    height: 75%;
-    justify-content: space-between;
-    align-items: center;
-}
-.slider_childen__backImg,
-.slider_childen__nextImg{
-    height: 60px;
-    width: 60px;
-    border-radius: 300px;
-    cursor: pointer;
-}
-.slider__childen__container{
-    height: 329px;
-    width: 960px;
-    border-radius: 10px;
-    display: flex;
-}
-.childen_container__img{
-    height: 329px;
-    width: 360px;
-    left: 100px;
-    top: 88px;
-    border-top-left-radius: 30px;
-    border-bottom-left-radius: 30px;
-    background: #5f5f5f;
-}
-.childen_container__textArea{
-    background: #E8E8E8;
-    border-top-right-radius: 30px;
-    border-bottom-right-radius: 30px;
-}
-.container_textArea__name{
-    height: 25px;
-    font-family: 'Gilroy-Medium'; 
-    font-size: 18px;
-    font-weight: 500;
-    line-height: 25px;
-    letter-spacing: 0em;
-    margin: 33px 40px;
-}
-.container_textArea__text{
-    height: 150px;
-    width: 500px;
-    font-family: 'Gilroy-Regular'; 
-    font-size: 18px;
-    font-weight: 400;
-    line-height: 25px;
-    letter-spacing: 0em;
-    margin: 40px;
-}
-/* active slider */
-.slider__childen__container{
-    display: none;
-}
-.slider__childen__container.active{
-    display: flex;
-}
-/* blox_seven__freeDay */
-.blox_seven__freeDay{
-    height: 967px;
-    margin-top: 100px;
-    width: 90%;
-   display: flex;
-   justify-content: start;
-   align-items: center;
-   flex-direction: column;
-   padding-top: 90px;
-    position: relative;
-}
-.seven_freeDay__name{
-    min-height: 112px;
-    width: 80%;
-    top: 90px;
-    font-family: 'HerculesModern'; 
-    font-size: 40px;
-    font-weight: 400;
-    line-height: 56px;
-    letter-spacing: 0em;
-    text-align: center;
-}
-.seven_freeDay__markets{
-    height: 78px;
-    width: 554px;
-    margin-top: 32px;
-    margin-bottom: 54px;
-    display: flex;
-    position: relative;
-    justify-content: space-between;
-}
-.freeDay_markets__errow{
-    position: absolute;
-    left: 20%;
-    top: 180px;
-    height: 101px;
-    transform: rotate(-5deg);
-}
-.seven_freeDay__markets img{
-    height: 78px;
-    width: 264px;  
-}
-.freeDay_wallpaperBig__big{
-    height: auto;
-    width: 100%;
-    border-radius: 10px;
-}
-.seven_freeDay__wallpaperSmall{
-    display: none;
-}
-footer{
-    margin-top: 0px;
-}
-/* 1442px */
-@media screen and (max-width: 1442px) {
-.row_boxOne__text{
-    width: 268px;
-} 
-.freeDay_markets__errow{
-    left: 15%;
-    height: 101px;
-}
-}
-/* 1189px */
-@media screen and (max-width: 1200px) {
-/* main content */
-main{
-    margin-top: -120px;
-}
-/* Download our application */
-.download_our__application{
-    justify-content: flex-start;
-    padding-left: 3.5%;
-}
+                        <!-- container number three -->
+                        <div class="useful_container__box">
+                            <img src="../img/DownloadApplication/home_eight__block.png" alt="blox_img" class="useful_container_img">
+                            <h3 class="useful_container_title">Нужно тем-то</h3>
+                            <div class="useful_container_text">
+                                В своём стремлении улучшить пользовательский опыт мы упускаем, что реплицированные с зарубежных источников 
+                            </div>
+                        </div>
+                        <!-- container number three -->
+                        <div class="useful_container__box">
+                            <img src="../img/DownloadApplication/home_eight__block.png" alt="blox_img" class="useful_container_img">
+                            <h3 class="useful_container_title">Нужно тем-то</h3>
+                            <div class="useful_container_text">
+                                В своём стремлении улучшить пользовательский опыт мы упускаем, что реплицированные с зарубежных источников 
+                            </div>
+                        </div>
+                        <!-- container number three -->
+                        <div class="useful_container__box">
+                            <img src="../img/DownloadApplication/home_eight__block.png" alt="blox_img" class="useful_container_img">
+                            <h3 class="useful_container_title">Нужно тем-то</h3>
+                            <div class="useful_container_text">
+                                В своём стремлении улучшить пользовательский опыт мы упускаем, что реплицированные с зарубежных источников 
+                            </div>
+                        </div>
+                        <!-- container number three -->
+                        <div class="useful_container__box">
+                            <img src="../img/DownloadApplication/home_eight__block.png" alt="blox_img" class="useful_container_img">
+                            <h3 class="useful_container_title">Нужно тем-то</h3>
+                            <div class="useful_container_text">
+                                В своём стремлении улучшить пользовательский опыт мы упускаем, что реплицированные с зарубежных источников 
+                            </div>
+                        </div>
+                </div>
+        </div>
 
-html::before{
-    bottom: -40px;
-}
-footer{
-    top: 50px;
-}
-.our_application__title{
-    height: 84px;
-    width: 286px;
-    left: 10px;
-    top: 0px;
-    margin-top: 28px;
-    font-size: 30px;
-    line-height: 42px;
-    }
-.our_application__text{
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 22px;
-    height: 88px;
-    width: 258px;
-}
-.our_application__markets{
-    width: 103%;
-    height: 77.5px;
-    display: flex;
-    justify-content: space-around;
-    left: -10px;
-    position: relative;
-}
-.our_application__markets img{
-    height: 38px;
-    width: 131px;
-}
-.our_application__wallpapersSmall{
-    display: flex;
-    position: absolute;
-    bottom: -82px;
-    left: 0px;
-    width: 288px;
-}
-.our_application__wallpapersBig{
-    display: none;
-}
-    /* who is it useful for */
+        <!-- block youBuy five-->
+        <div class="block_youBuy__five">
+            <h2 class="youBuy_five__name">что вы приобретете вместе с нами?</h2>
+            <div class="youBuy_five__row">
+                <!-- boxOne -->
+                <div class="five_row__boxOne">
+                    <div class="row_boxOne__img"><img src="../img/home_page/home_seven__block.png" alt="Преимущество" class=""></div>
+                    <h2 class="row_boxOne__name">1 Преимущество</h2>
+                    <div class="row_boxOne__text">
+                                                В своём стремлении улучшить<br>
+                                                пользовательский опыт мы<br> 
+                                                упускаем, что реплицированные <br>
+                                                с зарубежных источников
+                    </div>
+                </div>
+                <!-- boxTwo -->
+                <div class="five_row__boxOne">
+                    <div class="row_boxOne__img"><img src="../img/home_page/home_seven__block.png" alt="Преимущество" class=""></div>
+                    <h2 class="row_boxOne__name">2 Преимущество</h2>
+                    <div class="row_boxOne__text">
+                                                В своём стремлении улучшить<br>
+                                                пользовательский опыт мы<br> 
+                                                упускаем, что реплицированные <br>
+                                                с зарубежных источников
+                    </div>
+                </div>
+                <!-- boxThree -->
+                <div class="five_row__boxOne">
+                    <div class="row_boxOne__img"><img src="../img/home_page/home_seven__block.png" alt="Преимущество" class=""></div>
+                    <h2 class="row_boxOne__name">3 Преимущество</h2>
+                    <div class="row_boxOne__text">
+                                                В своём стремлении улучшить<br>
+                                                пользовательский опыт мы<br> 
+                                                упускаем, что реплицированные <br>
+                                                с зарубежных источников
+                    </div>
+                </div>
+            </div>    
+        </div> 
 
-.box_who__useful{
-    margin-bottom: -560px;
-}
-.who_useful__name{
-    width: 290px;
-    left: 6px;
-    top: 0px;
-    font-size: 30px;
-    line-height: 42px;
-    letter-spacing: 0em;
-    text-align: center;
-    margin-bottom: 15px;
-}
-.who_useful_container{
-    width: 95%;
-    height: 95%;
-    margin: auto;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-}
-.useful_container__box{
-    height: 245px;
-    width: 500px;
-    border-radius: 10px;
-    margin: 10px;
-}
-.useful_container_img{
-    height: 55px;
-    width: 61px;
-    top: 30px;
-}
-.useful_container_title{
-    height: 22px;
-width: 144px;
-top: 45px;
-}
-.useful_container_text{
-    height: 128px;
-    width: 231px;
-    top: 64px;
-    font-size: 14px;
-    font-weight: 400;
-    line-height: 22px;
-}
-/* block products four */
-.block_youBuy__five{
-    height: 994px;
-    top: 420px;
-}
-.youBuy_five__name{
-    height: 126px;
-    width: 290px;
-    font-size: 30px;
-    line-height: 42px;
-    text-align: center;
-}
-.youBuy_five__row{
-    display: flex;
-    justify-content: space-around;
-    flex-direction: column;
-    align-items: center;
-    width: 100%;
-}
+        <!-- block slider six-->
+        <div class="block_slider">
+            <h2 class="block_slider__name">отзывы</h2>
+            <div class="block_slider__childen">
+                <div class="slider_childen__backImg"><img src="../img/icons/back_btn.png" alt="back_btn"></div>
+                
+                <!-- block  one slider -->
+                <div class="slider__childen__container">
+                    <img src="../img/home_page/home_eight__block.png" alt="childen img" class="childen_container__img">
+                    <div class="childen_container__textArea">
+                        <h2 class="container_textArea__name">01 Екатерина Иванова</h2>
+                        <div class="container_textArea__text">Всем привет! Герой моего отзыва - практика цигун! <br>
+                            Цигун - как много в этом одном слове для меня! Я<br>
+                            расскажу свою историю и дам практические<br>
+                            рекомендации по практике цигун. Также дам авторов и<br>
+                            ссылки на источники для изучения цигун. Для логичности<br>
+                            я разделю свое повествование на части.</div>
+                    </div>                                        
+                </div>
+                <!-- block  two slider -->
+                <div class="slider__childen__container">
+                    <img src="../img/home_page/home_eight__block.png" alt="childen img" class="childen_container__img">
+                    <div class="childen_container__textArea">
+                        <h2 class="container_textArea__name">02 Екатерина Иванова</h2>
+                        <div class="container_textArea__text">Всем привет! Герой моего отзыва - практика цигун! <br>
+                            Цигун - как много в этом одном слове для меня! Я<br>
+                            расскажу свою историю и дам практические<br>
+                            рекомендации по практике цигун. Также дам авторов и<br>
+                            ссылки на источники для изучения цигун. Для логичности<br>
+                            я разделю свое повествование на части.</div>
+                    </div>                                        
+                </div>
+                <!-- block  three slider -->
+                <div class="slider__childen__container">
+                    <img src="../img/home_page/home_eight__block.png" alt="childen img" class="childen_container__img">
+                    <div class="childen_container__textArea">
+                        <h2 class="container_textArea__name">03 Екатерина Иванова</h2>
+                        <div class="container_textArea__text">Всем привет! Герой моего отзыва - практика цигун! <br>
+                            Цигун - как много в этом одном слове для меня! Я<br>
+                            расскажу свою историю и дам практические<br>
+                            рекомендации по практике цигун. Также дам авторов и<br>
+                            ссылки на источники для изучения цигун. Для логичности<br>
+                            я разделю свое повествование на части.</div>
+                    </div>                                        
+                </div>
 
-.five_row__boxOne{
-    height: 150px;
-    width: 300px;
-    border-radius: 10px;
-    background: #E8E8E8;
-    margin-top: 0px;
-    position: relative;
-    margin: 37px 10px;
-}
-.row_boxOne__img img{
-    position: absolute;
-    left: -10px;
-    top: 25px;
-    height: 50px;
-}
-.row_boxOne__name{
-    font-size: 16px;
-    line-height: 22px;
-    top:10px;
-    left: 100px;
-}
-.row_boxOne__text{
-    font-weight: 500;
-    line-height: 22px;
-    letter-spacing: 0em;
-    position: absolute;
-    bottom: 14px;
-    margin: -10px auto;
-    font-size: 14px;
-}
-/* block slider six */
-.block_slider{
-    height: 450px;
-    width: 100%;
-    top: 220px;
-}
-.block_slider__name{
-    text-align: center;
-    font-size: 30px;
-}
-.block_slider__childen{
-    height: 450px;
-    border-radius: 10px;
-}.slider_childen__backImg,
-.slider_childen__nextImg{
-    bottom: -60px;
-    height: 40px;
-    position: absolute;
-    bottom: -60px;
-    right: 80px;
-}
-.slider_childen__backImg{
-    left: 80px;
-}
-.slider__childen__container{
-    height: 390px;
-    width: 100%;
-}
-.childen_container__img{
-    height: 111px;
-    width: 106px;
-    left: 13px;
-    top: 25px;
-    border-radius: 10px;
-    position: absolute;
-}
-.childen_container__textArea{
-    width: 100%;
-    height: 100%;
-    border-top-right-radius: 0px;
-    border-bottom-right-radius: 0px;
-    position: absolute;
-    border-radius: 10px;
-    left: 0;
-    z-index: -10;
-}
-.container_textArea__name{
-    font-size: 16px;
-    width: 120px;
-    height: 70px;
-    position: absolute;
-    top: 10px;
-    right: 10px;
-}
-.container_textArea__text{
-    height: 250px;
-    width: 90%;
-    position: relative;
-    left: -35px;
-    font-size: 16px;
-    font-weight: 500;
-    line-height: 20px;
-    margin-top: 140px;
-    color: black;
-    left: -25px;
-}
-/* blox_seven__freeDay */
-.blox_seven__freeDay{
-    margin-top: 300px;
-    width: 100%;
-    padding-top: 60px;
-    position: relative;
-    height: 612px;
-}
-.seven_freeDay__name{
-    top: 90px;
-    height: 112px;
-    width: 316px;
-    top: 60px;
-    font-size: 20px;
-    line-height: 28px;
-}
-.freeDay_markets__errow{
-    position: absolute;
-    left: 22px;
-    top: 133px;
-    border-radius: 0px;
-    height: 35px;
-}
-.seven_freeDay__markets{
-    height: 78px;
-    width: 100%;
-    margin-top: 31px;
-    margin-bottom: 32px;
-}
-.seven_freeDay__markets img{
-    height: 41px;
-    width: 141px;
- 
-}
-.seven_freeDay__wallpaperBig{
-    display: none;
-}
-.seven_freeDay__wallpaperSmall{
-    display: flex;
-    width: 100%;
-    left: 5px;
-    position: relative;
-}
-}
+
+                <div class="slider_childen__nextImg"><img src="../img/icons/next_btn.png" alt="next_btn"></div> 
+            </div> 
+        </div>
+
+<!-- blox seven free day -->
+   
+    <div class="blox_seven__freeDay">
+        <div class="blox_seven__wallpaper"></div>
+            <img src="../img/DownloadApplication/errow.png" alt="errow_img" class="freeDay_markets__errow">
+            <h2 class="seven_freeDay__name">
+                Скачай приложение и получи пробную подписку на 7 дней бесплатно!
+                
+            </h2>
+            
+            <div class="seven_freeDay__markets">
+  
+                <a href="https://play.google.com/" target="_blank" class="freeDay_markets__link"><img src="../img/icons/googleplay_small.png" alt="googleplay_img" class="freeDay_markets_img"></a>
+                <a href="https://www.apple.com/app-store/" target="_blank" class="freeDay_markets__link"><img src="../img/icons/appstore_small.png" alt="appstore_img" class="freeDay_markets_img"></a>
+            </div>
+            <div class="seven_freeDay__wallpaperBig"><img src="../img/DownloadApplication/phone_wallpaper.png" alt="phone_wallpaper_big" class="freeDay_wallpaperBig__big"></div>
+            <div class="seven_freeDay__wallpaperSmall"><img src="../img/DownloadApplication/phone_wallpaper_mini.png" alt="phone_wallpaper_smal" class="freeDay_wallpaperBig__small"></div>
+        
+    </div>
+    </main>
+    
+    <!-- footer -->
+  <footer>
+     <div class="footer_wallpaper">
+            <div class="box_footer__top">
+                <div class="footer_top__left">
+                    <div class="top_left__logo"><a href="#"><img src="../img/home_page/logo_footer.png" alt="logo_img" class="left_logo__img"></a></div>
+                    <div class="top_left__text">Присоединяйтесь к миллионам людей,<br>
+                                                которым каждый день помогает<br>
+                                                чувствовать себя лучше
+                    </div>
+                </div>
+                <div class="footer_top__center">
+                    <ul>
+                        <li class="footer_navBar">Навигация</li>
+                        <li><a href="../FreeCharging/FreeCharging.html">Бесплатная зарядка</a></li>
+                        <li><a href="#">Приложение Ци-будильник</a></li>
+                        <li><a href="../MagazineDragon/MagazineDragon.html">Электронный журнал</a></li>
+                        <li><a href="#">Обучающая платформа</a></li>
+                        <li><a href="#">О нас</a></li>
+                    </ul>
+                </div>
+                <div class="footer_top__right">
+                    <div class="top_right__contacts">Контакты</div>
+                    <div class=right_contacts__phone><a href="tel:+89999999999">+8 (999) 999-99-99</a></div>
+                    <a href="mailto:почта@mail.ru" class="right_container__mail">почта@mail.ru</a>
+                </div>
+            </div>
+            <div class="footer_top__centr"></div>
+            <div class="box_footer__bottom">
+                <div class="footer_bottom__left">
+                    <div class="bottom_left_mymarket">
+                        <a href="https://play.google.com/" target="_blank"><img src="../img/icons/googleplay_small.png" alt="googleplay_img" class="bottom_left_android"></a>
+                        <a href="https://www.apple.com/app-store/" target="_blank"><img src="../img/icons/appstore_small.png" alt="appstore_img" class="bottom_left_ios"></a>
+                    </div>
+                </div>
+                <div class="footer_bottom__center">
+                    <ul>
+                        <li><a href="#">Условия и положения</a></li>
+                        <li><a href="#">Политика конфиденциальности</a></li>
+                    </ul>
+                </div>
+                <div class="footer_bottom__right">
+                    <div class="bottom_right__socialMedia">
+                        <a href="https://vk.com/" target="_blank"><img src="../img/icons/vk_logo.png" alt="vk_img"></a>
+                        <a href="https://www.youtube.com/" target="_blank"><img src="../img/icons/youtube_logo.png" alt="youtube_img"></a>
+                    </div>
+                </div>
+            </div>
+        </div> 
+  </footer>                                                                  
+    <script src="../javascript/main.js"></script>
+</body>
+</html>
