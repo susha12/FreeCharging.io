@@ -224,7 +224,7 @@ main{
     margin: 40px;
 }
 footer{
-    margin-top: -450px;
+    margin-top: 0px;
 }
 /* active slider */
 .slider__childen__container{
