@@ -1,5 +1,6 @@
 main{
     width: 100%;
+    max-width: 1960px;
     min-height: 100vh;
     display: flex;
     justify-content: start;
@@ -31,7 +32,6 @@ main{
 .offerWords_text__name .p{
     display: inline-block;
 }
-
 .offerWords_text__text{
     height: 85px;
     width: 330px;
@@ -68,7 +68,6 @@ main{
 }
 /* box block about irina */
 .box_two__aboutIrina{
-    /* max-width: 1160px; */
     width: 90%;
     position: relative;
     height: 360px;
@@ -277,8 +276,8 @@ main{
     height: 75%;
     justify-content: space-between;
     align-items: center;
-
-}.slider_childen__backImg,
+}
+.slider_childen__backImg,
 .slider_childen__nextImg{
     height: 60px;
     width: 60px;
