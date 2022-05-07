@@ -129,7 +129,7 @@ main{
     position: relative;
     top: 49px;
 }
-.offer_btn__box button{
+.offer_btn__box a{
     height: 39px;
     width: 213px;
     top: 167px;
@@ -138,6 +138,15 @@ main{
     color: white;
     margin-left: 30px;
     cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+	font-family: 'Gilroy-Medium'; 
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 19px;
+    letter-spacing: 0em;
 }
 
 /* block slider six */
@@ -224,7 +233,7 @@ main{
     margin: 40px;
 }
 footer{
-    margin-top: 0px;
+    margin-top:0px;
 }
 /* active slider */
 .slider__childen__container{
@@ -233,6 +242,14 @@ footer{
 .slider__childen__container.active{
     display: flex;
 }
+
+
+
+
+/* <div class="offer_btn__box">
+<a href="https://vk.com/" target="_blank" class="offer_two__btnиться в VK</a>VK">Присоеден
+<a href="https://telegram.org/" class="offer_two__btnTG" target="_blank">Присоедениться в TG</a>
+</div> */
 /* main content */
 /* 1189px */
 @media screen and (max-width: 1200px) {
@@ -324,6 +341,7 @@ margin-bottom: 0px;
 }
 .offer_two__socialIkons img{
     display: flex;
+    
 }
 .Offer_two__vk{
     height: 75px;
@@ -413,4 +431,5 @@ margin-bottom: 0px;
     color: black;
     left: -25px;
 }
+
 }
