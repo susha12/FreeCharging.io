@@ -29,6 +29,9 @@ main{
     width: 300px;
     font-family:'HerculesModern'; 
     line-height: 56px;
+    font-size: 40px;
+    display: inline;
+    display: flex;
 }
 .offerWords_text__name .p{
     display: inline-block;
@@ -221,7 +224,7 @@ main{
     margin: 40px;
 }
 footer{
-    margin-top: 0px;
+    margin-top: -450px;
 }
 /* active slider */
 .slider__childen__container{
@@ -262,9 +265,12 @@ footer{
     font-size: 30px;
     margin-left: 21px;
     margin-bottom: 0px;
+    display: flex;
+    flex-direction: column;
+
 }
 .offerWords_text__name p{
-    display: block;
+
     position: relative;
     left: 59px;
     top: -15px;
