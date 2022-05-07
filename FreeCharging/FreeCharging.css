@@ -1,4 +1,3 @@
-
 main{
     width: 100%;
     min-height: 100vh;
@@ -248,23 +247,15 @@ footer{
 }
 /* block slider six */
 .slider_box__home{
-    width: 150%;
+    width: 100%;
     height: 360px;
-    background: #D8D8D8;
+    background: #ffffff;
     display: flex;
     justify-content: center;
     align-items: center;
     margin-top: 20px;
 }
-/* html::after{
-    content: "";
-    width: 100%;
-    height: 600px;
-    position: absolute;
-    bottom: 720px;
-    position: absolute;
-    background: #D8D8D8;
-} */
+
 .offerWords_text__name{
     height: 106px;
     width: 190px;
