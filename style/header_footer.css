@@ -340,6 +340,12 @@ footer{
 .bottom_right__socialMedia a:first-child{
     margin-right: 20px;
 }
+/* button css effects */
+.acaunts_register__text a{
+    color: white;
+    text-decoration: none;
+    font-family: 'Gilroy-Regular'; 
+}
  /* 1200px */
  @media screen and (max-width: 1200px) {
 body{
