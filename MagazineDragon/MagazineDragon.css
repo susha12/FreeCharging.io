@@ -7,9 +7,8 @@ main{
     flex-direction: column;
     margin: 0 auto;
     max-width: 1960px;
-    /* border: 2px solid red; */
+    background: white;
 }
-
  /* block_one Magazine_Dragon__Herald */
  .Magazine_Dragon__Herald{
     height: 601px;
@@ -49,7 +48,6 @@ main{
  .Dragon_Herald_columpRight{
     width: 47%;
     height: 71%;
-
  }
  .Herald_columpRight__img{
     height: 421px;
@@ -262,13 +260,107 @@ li.right_list__oneChild::before{
 li.right_list__oneChild{
     left: -20px;
 }  
-
-
-
-
-
-
-
+/* block three Obtain the Dragon Herald binder for previous periods */
+.Dragon_Herald__magazine{
+    max-width: 1960px;
+    width: 90%;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-direction: column;
+    height: 757px;
+    width: 1160px;
+    border-radius: 10px;
+    background: #E8E8E8;
+    margin-top: 90px;
+    margin-bottom: 70px;
+    padding: 0 100px;
+}
+.magazine_bockChildren__name{
+    height: 168px;
+    width: 696px;
+    font-family: 'HerculesModern'; 
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 56px;
+    letter-spacing: 0em;
+    text-align: center;
+    margin-top: 90px;
+}
+.magazine_bockChildren__name_two{
+    display: none;
+}
+.magazine_bockChildren__inputBock{
+    height: 439px;
+    width: 100%;
+    margin-top: 52px;
+}
+.form_send{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.bockChildren_chekboxBock__one,
+.bockChildren_chekboxBock__two{
+    border-bottom: 1px solid #A6A6A6;
+    display: flex;
+    align-items: center;
+    height: 52px;
+    width: 100%;
+    padding-left: 10px;
+    position: relative;
+    font-family: 'Gilroy-Regular'; 
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 25px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+.chekbox_our{
+    margin-right: 19px;
+    height: 20px;
+    width: 20px;
+    border-radius: 0px;
+}
+.prise_our{
+    position: absolute;
+    right: 10px;
+    top: 10px;
+}
+.bockChildren_inputBock__one{
+    height:294px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+.bockChildren_inputBock__oneInput{
+    border: none;
+    outline: none;
+    border-bottom: 2px solid #464646;
+    height: 54px;
+    background: #E8E8E8;
+	font-family: 'Gilroy-Regular'; 
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 25px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+.bockChildren_inputBock__button{
+    height: 39px;
+    width: 213px;
+    left: 160px;
+    top: 2903px;
+    border-radius: 10px;
+    background: #464646;
+    color: white;
+    border: none;
+    outline: none;
+    margin-top: 35px;
+    cursor:pointer;
+}
 
 
 footer{
@@ -277,15 +369,7 @@ footer{
 html::before{
     bottom: -50px;
 }
-html::after{
-    content: "";
-    position: absolute;
-    width: 100%;
-    height: 757px;
-    background: #E8E8E8;
-    top: 1410px;
-    z-index: -200;
-}
+
 footer{
     top: 50px;
 }
@@ -429,6 +513,7 @@ footer{
     width: 100%;
     justify-content: start;
     margin-bottom: 50px;
+    padding-left: 5px;
 }
 .releases_bottomBlock__left{
     margin: 20px 0px 50px;
@@ -461,14 +546,117 @@ footer{
     right: -22px;
     margin-top: 0px;
 }
-html::after{
-    content: "";
-    position: absolute;
+/* block three Obtain the Dragon Herald binder for previous periods */
+.Dragon_Herald__magazine{
+    height: 763px;
+    width: 300px;
+    left: 7px;
+    top: 0px;
+    border-radius: 10px;
+    margin-bottom: 0px;
+}
+.magazine_bockChildren__name{
+    display: none;
+}
+.magazine_bockChildren__name_two{
+    height: 168px;
+    width: 313px;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 42px;
+    letter-spacing: 0em;
+    text-align: center;
+    margin-top: 60px;
+    display: flex;
+    font-family: 'HerculesModern';
+}
+.magazine_bockChildren__inputBock{
+    height: 439px;
+    width: 320px;
+    margin-top: 52px;
+}
+.form_send{
+    width: 310px;
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+}
+.bockChildren_chekboxBock__one,
+.bockChildren_chekboxBock__two{
+    border-bottom: 1px solid #A6A6A6;
+    display: flex;
+    align-items: center;
+    height: 102px;
+    width: 300px;
+    padding-left: 10px;
+    position: relative;
+    font-family: 'Gilroy-Regular'; 
+    font-size: 18px;
+    font-weight: 400;
+    flex-wrap: wrap;
+    margin-bottom: 15px;
+    position: relative;
+    left: 10px;
+}
+.chekbox_our{
+    margin: 2px 10px;
+    height: 16px;
+    width: 16px;
+    border-radius: 0px;
+    margin-bottom: 0px;
+
+}
+.chekboxBock_two__textOur{
+    display: inline;
+    width: 250px;
+    font-size: 16px;
+}
+.prise_our{
+    position: relative;
+    width: 50px;
+    left: 35px;
+    width: 200px;
+    font-size: 16px;
+    top: 5px;
+}
+.chekboxBock_two__textOur{
+    width: 250px;
+}
+.bockChildren_inputBock__one{
+    height:294px;
     width: 100%;
-    height: 1256px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    padding-left: 10px;
+
+}
+.bockChildren_inputBock__oneInput{
+    padding-left: 10px;
+    border: none;
+    outline: none;
+    border-bottom: 2px solid #464646;
+    height: 54px;
     background: #E8E8E8;
-    top: 1780px;
-    z-index: -200;
+	font-family: 'Gilroy-Regular'; 
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 25px;
+    letter-spacing: 0em;
+    text-align: left;
+    padding: 0px 20px;
+    width: 280px;
+    margin: 0 auto;
+
+}
+.bockChildren_inputBock__button{
+    height: 39px;
+    width: 180px;
+    margin-top: 35px;
+    padding-left: 10px;
 }
 }
 }
+
+
+
