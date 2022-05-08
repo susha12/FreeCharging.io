@@ -366,6 +366,10 @@ li.right_list__oneChild{
 footer{
     margin-top: 0px;
 }
+    .footer_wallpaper{
+        top: -50px;
+        max-width: 1400px;
+}
 html::before{
     bottom: -50px;
 }
