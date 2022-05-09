@@ -1,31 +1,29 @@
 // storyAboutIrina page slider active
 
-
-let certificatesBack = document.querySelector(".slider_container__nextImg");
-let certificatesNext = document.querySelector(".slider_container__backImg");
-let sliderRotate = document.querySelectorAll(".container_images__one");
-let sliderLeft = 0;
-console.log("yes")
-certificatesBack.onclick = ()=>{
-   
-    sliderLeft+=100;
-    for(let i = 0; i< sliderRotate.length; i++){
-console.log(sliderLeft)
-    sliderRotate[i].style.left = sliderLeft + "px";
-    if(sliderLeft > 800){
-        sliderLeft = -800;
+let btnBack = document.querySelector(".slider_childen__backImg");
+let btnNext = document.querySelector(".slider_childen__nextImg");
+let sliderBox =  document.querySelectorAll(".childen_container__img");
+let a = (sliderBox.length) * 310;
+let pluse = 0;
+console.log(pluse);
+console.log(a);
+btnNext.onclick =()=>{
+    if (pluse == 0){
+        pluse = -310; 
     }
-
+    pluse += 310;
+    for(let i=0; i < sliderBox.length; i++){
+        sliderBox[i].style.left = pluse + "px";
+        console.log(pluse)
+    };
 }
-}
-
-certificatesNext.onclick = ()=>{
-    sliderLeft-=100;
-    for(let i = 0; i< sliderRotate.length; i++){
-console.log(sliderLeft)
-    sliderRotate[i].style.left = sliderLeft + "px";
-    if(sliderLeft < -800){
-        sliderLeft = 800;
+btnBack.onclick =()=>{
+    pluse -= 310;
+    if (pluse == -a){
+        pluse = -a + 310; 
     }
+    for(let i=0; i < sliderBox.length; i++){
+        sliderBox[i].style.left = pluse + "px";
+        console.log(pluse)
 }
 }
