@@ -1,13 +1,13 @@
 // storyAboutIrina page slider active
 
 let btnBackBack = document.querySelector(".slider_childen__backImg");
-let btnNext = document.querySelector(".slider_childen__nextImg");
+let btnNextNext = document.querySelector(".slider_childen__nextImg");
 let sliderBox =  document.querySelectorAll(".childen_container__img");
 let a = (sliderBox.length) * 310;
 let pluse = 0;
 console.log(pluse);
 console.log(a);
-btnNext.onclick =()=>{
+btnNextNext.onclick =()=>{
     if (pluse == 0){
         pluse = -310; 
     }
