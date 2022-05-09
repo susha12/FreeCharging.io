@@ -197,6 +197,7 @@ footer{
     margin-left: 60px;
 }
 .footer_top__center{
+    padding-top: 60px;
     width: 40%;
     height: 100%;
     display: flex;
@@ -434,6 +435,7 @@ html::before{
 }
 .footer_top__center{
     width: 100%;
+    padding-top: 0px;
 }
 .footer_top__center ul{
     margin: 0px 10px;
