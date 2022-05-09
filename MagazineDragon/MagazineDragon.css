@@ -361,21 +361,12 @@ li.right_list__oneChild{
     margin-top: 35px;
     cursor:pointer;
 }
-
-
-footer{
-    margin-top: 0px;
-}
-    .footer_wallpaper{
-        top: -50px;
-        max-width: 1400px;
-}
 html::before{
     bottom: -50px;
 }
-
 footer{
     top: 50px;
+    margin-top: 0px;
 }
 /* 1442px */
 @media screen and (max-width: 1442px) {
@@ -608,7 +599,6 @@ footer{
     width: 16px;
     border-radius: 0px;
     margin-bottom: 0px;
-
 }
 .chekboxBock_two__textOur{
     display: inline;
@@ -651,7 +641,6 @@ footer{
     padding: 0px 20px;
     width: 280px;
     margin: 0 auto;
-
 }
 .bockChildren_inputBock__button{
     height: 39px;
@@ -662,6 +651,3 @@ footer{
 }
 }
 }
-
-
-
